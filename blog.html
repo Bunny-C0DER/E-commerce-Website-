@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <link  rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="lgo.png" width="200px"></a>
+        </div>
+
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    <div class="blog">
+        <h2>The Growing Role of AR and VR in eCommerce</h2>
+        <div class="blog_container">
+            <div class="blog_pic">
+                <img src="vr.jpeg" width="100%">
+            </div>
+            <div class="blog_content">
+                It used to be that AR (Augmented Reality) and VR (Virtual Reality) were as esoteric as something out of a Stephen King Novel. 
+                But now, both technologies are gaining in popularity and widespread use when it comes to online retail. Learn what’s in store 
+                for these two trends when it comes to the world of eCommerce.AR and VR are no longer fringe technologies. It is not just the examples above that are fuelling the growth of these technologies in eCommerce, either. 
+
+                The pandemic is also accelerating the use of AR and VR. 
+            </div>
+        </div>
+        <a href="" id="blog_button">Read More!</a><br><br><br><br>
+    </div>
+
+    <div class="blog">
+        <h2>The Most Common Forms of Revenue Loss for eCommerce Brands</h2>
+        <div class="blog_container">
+            <div class="blog_pic">
+                <img src="loss.jpg" width="100%">
+            </div>
+            <div class="blog_content">
+                From eCommerce fraud and lost packages, to poor customer service and sales tax errors, 
+                here are the areas of your business to shore up now to protect against revenue loss.There are thousands of articles about increasing sales and making more money from an online store, but very few on how to stop an eCommerce store from losing money. This article aims to rectify that. Here are the top causes of eCommerce revenue loss and how to avoid them. 
+            </div>
+        </div>
+        <a href="" id="blog_button">Read More!</a><br><br><br><br>
+    </div>
+
+    <div class="blog">
+        <h2>11 Ways to Improve eCommerce Customer Service</h2>
+        <div class="blog_container">
+            <div class="blog_pic">
+                <img src="imp.jpeg" width="100%">
+            </div>
+            <div class="blog_content">
+                Good customer service across chat, email, and phone is what sets DTC eCommerce retailers apart in a crowded marketplace. 
+                Discover 11 strategies to start implementing across your customer success teams now. Today’s eCommerce companies must have more than great products and prices to attract and retain loyal customers. Retailers must also make the customer experience their number one priority, because happy customers will keep coming back for more. In fact, 96% of customers say customer service is important in their choice of loyalty to a brand. 
+            </div>
+        </div>
+        <a href="" id="blog_button">Read More!</a><br><br><br><br>
+    </div><br><br>
+
+        <a href="" id="blogbtn">Read More Blogs!</a><br><br><br>
+
+
+    <div class="feed">
+        <h2>Write a Review</h2>
+        <div class="feed_form">
+            <form name="submit-googlesheet" method="POST">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email ID"><br>
+                <input type="number" name="Number" placeholder="Contact Number"><br>
+                <textarea name="Review" placeholder="Write your Review" rows="5" cols="7"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_logo">
+            <a href="#"><img src="lgo-white.png" width="150"></a>
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+            <a href="about.html">About Us</a>|
+            <a href="service.html">Services</a>|
+            <a href="blog.html">Blogs</a>|
+            <a href="account.html">Login</a>|
+            <a href="account.html">Sign Up</a>|
+        </div>
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href="">Privacy Policy</a>|
+            <a href="">Terms of Use</a>|
+            <a href="">Refund Policy</a>|
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/apratim.pradhan.9/"><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/apratim.pradhan.9/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/apratim.pradhan.9/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href="https://api.WhatsApp.com/send?phone=+919826526182" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel: +919826526182"><i class="fas fa-phone-alt"></i></a>
+            <a href="mailto: apratimpradhan17@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+        <hr>
+        <p>Copyright &copy 2021 Necessera. All rights reserved.</p>
+    </footer>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZeEGVS6Nk9QuvWmqBCGi5v1ftW399scg9ciB7ybf1uhqySLCY57g-QoN1nNT45uUXEA/exec'
+            const form = document.forms['submit-googlesheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Submitting your Review"))
+                .catch(error => console.error('Error!', error.message))
+            })
+</script>
+
+<script>
+    var MenuItems =  document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
